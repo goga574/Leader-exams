@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Space Grotesk", sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.image-div{
+    height: 100vh;
+    width: 700px;
+}
+.leftpurple{
+    width: 100%;
+    height: 100%;
+}
+
+.form-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+form input{
+    outline: none;
+}
+form input:hover{
+    border: 2px solid purple;
+    
+}
+form label{
+    letter-spacing: 2px;
+}
+
+.namediv{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.name-input{
+    width: 350px;
+    padding: 10px  ;
+    border:2px solid #dedede;
+    border-radius: 5px;
+}
+.name-input::placeholder{
+    opacity: 50%;
+    font-family:  "Space Grotesk", sans-serif;
+}
+
+.other-informtion{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.MM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.short{
+    width: 80px;
+    padding: 10px;
+    font-family:  "Space Grotesk", sans-serif;
+    border:2px solid #dedede;
+    border-radius: 5px;
+}
+.short::placeholder{
+    opacity: 50%;
+}
+.mmyy-div{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.two-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.cvc{
+    padding: 10px 0px;
+    font-family:  "Space Grotesk", sans-serif;
+    border:2px solid #dedede;
+    border-radius: 5px;
+}
+.cvc::placeholder{
+    opacity: 50%;
+    padding-left: 10px;
+}
+
+.labeldiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.confirm{
+    width: 100%;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: #220930;
+    border-radius: 5px;
+    font-family: "Space Grotesk", sans-serif ;
+}
+
+.card-1{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url(./images/bg-card-front.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 50px;
+    color: #fff;
+}
+.cyrcle-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.big-cyrcle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+}
+.small-cyrcle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ffff;
+}
+
+.code-name-date{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.date-name{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 100px; */
+    
+}
+
+.h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.h2{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.h3{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.back-card{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top:350px;
+    left: 200px;
+}
+
+.alert{
+    color: red;
+    font-size: 10px;
+    font-weight: 500;
+    display: none;
+}
+
+.h3div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}

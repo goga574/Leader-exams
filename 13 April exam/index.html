@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="image-div">
+            <img src="./images/bg-main-desktop.png" alt="" class="leftpurple">
+        </div>
+
+        <div class="form-div">
+            <form>
+                <div class="namediv">
+                    <label for="">CARDHOLDER NAME</label>
+                    <input type="text" placeholder="e.g Jane Appleased " class="name-input name">
+                    
+                </div>
+
+
+                <div class="namediv">
+                    <label for="">CARD NUMBER</label>
+                    <input type="text" placeholder="e.g 1234 5678 9123 0000" class="name-input number-only"  >
+                    <p class="alert">Wrong format,numbers only</p>
+                </div>
+
+
+                <div class="other-informtion">
+                    <div class="labeldiv">
+                        <label>EXP.DATE(MM/YY)</label>
+                        <label for="">CVC</label>
+                    </div>
+                    
+                    <div class="MM">
+                        <div class="mmyy-div">
+                            <div class="two-input">
+                                <input type="text" placeholder="MM" class="short"  >
+                                <input type="text" placeholder="YY" class="short"  >
+                            </div>
+                            <p class="alert">Cant'be blank</p>
+                        </div>
+                        <input type="text" placeholder="e.g. 123" class="cvc" >
+                    </div>
+                </div>
+
+                <button class="confirm" type="button">Confirm</button>
+            </form>
+        </div>
+
+
+        <div class="card-1">
+            <div class="cyrcle-div">
+                <div class="big-cyrcle"></div>
+                <div class="small-cyrcle"></div>
+            </div>
+
+            <div class="code-name-date">
+                <h1 class="h1">0000 0000 0000 0000</h1>
+
+                <div class="date-name">
+                    <h2 class="h2">Jane Appleased</h2>
+                    <div class="h3div"><h3 class="h3">00</h3><span>/</span><h3 class="h3">00</h3></div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <img src="./images/bg-card-back.png" alt="" class="back-card">
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
